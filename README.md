@@ -29,6 +29,14 @@ void main()
     scanf("%d",&t1);
     printf("\nTime Quantum for Round Robin queue:-");
     scanf("%d",&t2);
+    if((t1%2==0)&&(t2%2==0))
+    {
+    	printf("\nTRe enter values of time quantum ");
+    	printf("\nTime Quantum for premptive priority queue:-");
+    scanf("%d",&t1);
+    printf("\nTime Quantum for Round Robin queue:-");
+    scanf("%d",&t2);
+	}
     printf("\n\nprocess\t|Turnaround Time|Waiting Time\n\n");
     for(i=0;i<num;i++)
     {
