@@ -14,8 +14,7 @@ void main()
     n=num;
     for(i=0;i<num;i++)
     {
-    	printf("\nEnter process name:-");
-    	fflush(stdin);
+    	printf("\nEnter process name:-")
         scanf("%c",&p[i].pname);
         printf("Enter Arrival Time:-");
         scanf("%d",&p[i].arvl_tm);
